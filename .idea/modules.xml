@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../LecteursRedacteurs/LecteursRedacteurs.iml" filepath="$PROJECT_DIR$/../LecteursRedacteurs/LecteursRedacteurs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banque.iml" filepath="$PROJECT_DIR$/banque.iml" />
+    </modules>
+  </component>
+</project>
