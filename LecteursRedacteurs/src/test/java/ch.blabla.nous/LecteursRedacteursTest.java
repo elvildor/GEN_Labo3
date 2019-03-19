@@ -1,10 +1,8 @@
-package ch.blabla.nous;
+package ch.heig.pl.lecteursredacteurs;
 
-import ch.heig.pl.lecteursredacteurs.Controleur;
-import ch.heig.pl.lecteursredacteurs.Lecteur;
-import ch.heig.pl.lecteursredacteurs.Redacteur;
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -21,7 +19,7 @@ public class LecteursRedacteursTest {
     private Redacteur redacteur2;
 
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         controleur = new Controleur();
         lecteur1 = new Lecteur(controleur);
